@@ -41,16 +41,15 @@
 // Form styles
 .form-group {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
     margin-bottom: 10px;
 }
 
 input {
-    width: 255px;
+    width: 257px;
     height: 50px;
     margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid var(--bg-section-color-two);
 
     &:not(:last-child) {
         margin-right: 20px;
@@ -61,17 +60,9 @@ input {
     width: 560px;
     height: 175px;
     margin-bottom: 50px;
-    resize: vertical;
-}
-
-.form-group input,
-.form-group textarea {
     padding: 10px;
-}
-
-.form-group input:not(:focus),
-.form-group textarea:not(:focus) {
-    border: none; // ! Removed default border
+    resize: vertical;
+    border: 2px solid var(--bg-section-color-two);
 }
 
 ::placeholder {

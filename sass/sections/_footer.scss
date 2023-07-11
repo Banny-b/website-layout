@@ -22,6 +22,17 @@
     margin-bottom: 20px;
 }
 
+.footer__phone {
+    font-size: 18px;
+    color: var(--white-color);
+    margin-bottom: 18px;
+    transition: var(--transition-function);
+
+    &:hover {
+        color: var(--text-color);
+    }
+}
+
 .footer__copyright {
     font-family: var(--primary-font);
     font-size: 13px;
@@ -42,4 +53,9 @@
 
 .footer__social {
     fill: var(--white-color);
+    transition: var(--transition-function);
+
+    &:hover {
+        fill: var(--text-color);
+    }
 }

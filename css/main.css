@@ -77,6 +77,7 @@ address {
   --text-color: #727272;
   --placeholder-color: #5F5D5D;
   --white-color: #FFFFFF;
+  --transition-function: 350ms ease-out;
 }
 
 .header {
@@ -111,6 +112,10 @@ address {
   line-height: 164%;
   letter-spacing: 1.6px;
   color: var(--black-color);
+  transition: var(--transition-function);
+}
+.header-nav__text:hover {
+  color: var(--accent-color);
 }
 
 .hero {
@@ -169,6 +174,10 @@ address {
   text-align: center;
   color: var(--white-color);
   background-color: var(--accent-color);
+  transition: var(--transition-function);
+}
+.hero-sub__btn:hover, .form__btn:hover {
+  background-color: var(--black-color);
 }
 
 .about {
@@ -443,16 +452,15 @@ address {
 
 .form-group {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
   margin-bottom: 10px;
 }
 
 input {
-  width: 255px;
+  width: 257px;
   height: 50px;
   margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid var(--bg-section-color-two);
 }
 input:not(:last-child) {
   margin-right: 20px;
@@ -462,17 +470,9 @@ input:not(:last-child) {
   width: 560px;
   height: 175px;
   margin-bottom: 50px;
-  resize: vertical;
-}
-
-.form-group input,
-.form-group textarea {
   padding: 10px;
-}
-
-.form-group input:not(:focus),
-.form-group textarea:not(:focus) {
-  border: none;
+  resize: vertical;
+  border: 2px solid var(--bg-section-color-two);
 }
 
 ::placeholder {
@@ -515,6 +515,16 @@ input:not(:last-child) {
   margin-bottom: 20px;
 }
 
+.footer__phone {
+  font-size: 18px;
+  color: var(--white-color);
+  margin-bottom: 18px;
+  transition: var(--transition-function);
+}
+.footer__phone:hover {
+  color: var(--text-color);
+}
+
 .footer__copyright {
   font-family: var(--primary-font);
   font-size: 13px;
@@ -535,4 +545,8 @@ input:not(:last-child) {
 
 .footer__social {
   fill: var(--white-color);
+  transition: var(--transition-function);
+}
+.footer__social:hover {
+  fill: var(--text-color);
 }/*# sourceMappingURL=main.css.map */

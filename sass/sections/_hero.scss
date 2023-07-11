@@ -54,4 +54,9 @@
     text-align: center;
     color: var(--white-color);
     background-color: var(--accent-color);
+    transition: var(--transition-function);
+
+    &:hover {
+        background-color: var(--black-color);
+    }
 }
