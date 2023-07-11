@@ -1,0 +1,17 @@
+.clients {
+    padding-top: 72px;
+    padding-right: 405px;
+    padding-bottom: 100px;
+    padding-left: 405px;
+    width: 1112px;
+    background: var(--bg-section-color-two);
+}
+
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients__item:not(:last-child) {
+    margin-right: 30px;
+}

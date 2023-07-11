@@ -1,0 +1,15 @@
+.numbers {
+    display: flex;
+    justify-content: center;
+    background: #34547A;
+    padding: 100px 594px 100px 560px;
+}
+
+.numbers__list {
+    display: flex;
+    justify-content: center;
+}
+
+.numbers__item:not(:last-child) {
+    margin-right: 50px;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header container">
+        <img class="header-logo" src="./img/logo/wd.png" alt="wd-logo">
+        <nav class="header-nav">
+            <ul class="header-nav__list list">
+                <li class="header-nav__item">
+                    <a class="header-nav__link link" href=""><p class="header-nav__text">HOME</p>
+                    </a>
+                </li>
+                <li class="header-nav__item">
+                    <a class="header-nav__link link" href=""><p class="header-nav__text">ABOUT</p>
+                    </a>
+                </li>
+                <li class="header-nav__item">
+                    <a class="header-nav__link link" href=""><p class="header-nav__text">WORKS</p>
+                    </a>
+                </li>
+                <li class="header-nav__item">
+                    <a class="header-nav__link link" href=""><p class="header-nav__text">PROCESS</p>
+                    </a>
+                </li>
+                <li class="header-nav__item">
+                    <a class="header-nav__link link" href=""><p class="header-nav__text">CONTACTS</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero -->
+    <section class="hero container">
+        <div class="hero-sub">
+            <img class="hero-sub__img" src="./img/hero/laptop.png" alt="pc-img">
+            <div class="hero-sub__content">
+                <h1 class="hero-sub__title">Design and layout</h1>
+                <p class="hero-sub__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus deleniti 
+                    sit voluptates aliquid quibusdam doloremque et hic minima enim nemo quod voluptas reprehenderit porro.
+                </p>
+                <button class="hero-sub__btn">WRITE ME</button>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about container">
+        <div class="about__content">
+            <h2 class="about__title">About me</h2>
+            <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt possimus, nostrum cumque, 
+                laboriosam commodi molestias eum vel atque.
+            </p>
+        </div>
+    </section>
+    <!-- Numbers -->
+    <section class="numbers container">
+        <ul class="numbers__list list">
+            <li class="numbers__item">
+                <img src="./img/number/numbers__item.png" alt="icon-project" class="numbers__img">
+            </li>
+            <li class="numbers__item">
+                <img src="./img/number/numbers__item.png" alt="icon-project" class="numbers__img">
+            </li>
+            <li class="numbers__item">
+                <img src="./img/number/numbers__item.png" alt="icon-project" class="numbers__img">
+            </li>
+            <li class="numbers__item">
+                <img src="./img/number/numbers__item.png" alt="icon-project" class="numbers__img">
+            </li>
+            <li class="numbers__item">
+                <img src="./img/number/numbers__item.png" alt="icon-project" class="numbers__img">
+            </li>
+            <li class="numbers__item">
+                <img src="./img/number/numbers__item.png" alt="icon-project" class="numbers__img">
+            </li>
+        </ul>
+    </section>
+    <!-- Skills -->
+    <section class="skills container">
+        <div class="skills__sub">
+            <div class="skills__content">
+                <h2 class="skills__title">My skills</h2>
+                <ul class="skills__list-progress list">
+                    <li class="skills__item">
+                        <p class="skills__text">HTML, CSS</p>
+                        <div class="skills__progress">
+                            <svg class="skills__progress-curr">
+                                <use href="./img/progress/progress-curr.svg#progress-curr"></use>
+                            </svg>
+                            <svg class="skills__progress-all">
+                                <use href="./img/progress/progress-all.svg#progress-all"></use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <p class="skills__text">Figma</p>
+                        <div class="skills__progress">
+                            <svg class="skills__progress-curr">
+                                <use href="./img/progress/progress-curr.svg#progress-curr"></use>
+                            </svg>
+                            <svg class="skills__progress-all">
+                                <use href="./img/progress/progress-all.svg#progress-all"></use>
+                            </svg>
+                        </div>
+                    </li>
+                    <li class="skills__item">
+                        <p class="skills__text">Adobe Photoshop</p>
+                        <div class="skills__progress">
+                            <svg class="skills__progress-curr">
+                                <use href="./img/progress/progress-curr.svg#progress-curr"></use>
+                            </svg>
+                            <svg class="skills__progress-all">
+                                <use href="./img/progress/progress-all.svg#progress-all"></use>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <img class="skills__photo" src="./img/photo/photo.png" alt="photo">
+        </div>
+    </section>
+    <!-- Video -->
+    <section class="video container">
+        <div class="video__sub">
+            <h2 class="video__title">How do i work</h2>
+            <p class="video__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum asperiores nam vero minima 
+                nobis autem ab, voluptatem fuga, fugiat qui accusantium ratione assumenda eos impedit officia optio.
+            </p>
+            <div class="video-wrapper">
+                <div class="video-placeholder">
+                    <img class="video-placeholder__image" src="./img/video/video-img.png" alt="Video Placeholder">
+                    <button class="video-placeholder__play">
+                        <a class="video__link" href="./img/video/web-developer.mp4">
+                            <img 
+                            class="video-placeholder__button" 
+                            src="./img/video/button-play-youtube.png" 
+                            alt="button-video-start">
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section class="projects container">
+        <ul class="projects__list list">
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-a.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-b.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-a.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-b.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-a.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-b.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-a.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+            <li class="projedts__item">
+                <div class="projects__img">
+                    <img class="projects__img" src="./img/project/project-b.png" alt="project-img">
+                    <div class="overlay">
+                        <img src="./img/project/view.png" alt="icon-view">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!-- Clients -->
+    <section class="clients container">
+        <ul class="clients__list list">
+            <li class="clients__item">
+                <img class="clients__img" src="./img/client/client-1.png" alt="logo-client" class="clients__logo">
+            </li>
+            <li class="clients__item">
+                <img class="clients__img" src="./img/client/client-1.png" alt="logo-client" class="clients__logo">
+            </li>
+            <li class="clients__item">
+                <img class="clients__img" src="./img/client/client-1.png" alt="logo-client" class="clients__logo">
+            </li>
+            <li class="clients__item">
+                <img class="clients__img" src="./img/client/client-1.png" alt="logo-client" class="clients__logo">
+            </li>
+        </ul>
+    </section>
+    <!-- Form -->
+    <section class="form">
+        <div class="form__container">
+            <h2 class="form__title">Do you want a website?</h2>
+            <p class="form__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias error reprehenderit perferendis harum?</p>
+            <form class="form__content">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="First name">
+                    <input type="email" id="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                </div>
+            </form>
+            <button class="form__btn">Send</button>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer container">
+        <div class="footer__info">
+            <h3 class="footer__author">Taras Shevchenko</h3>
+            <p class="footer__copyright">(с) 2023. All rights reserved.</p>
+        </div>
+        <div class="footer__social">
+            <ul class="footer__list list">
+                <li class="footer__item">
+                    <a href="" class="footer__link"></a>
+                    <svg class="footer__social" width="30" height="30">
+                        <use href="./img/icon/sprite-social-icons.svg#icon-instagram"></use>
+                    </svg>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link"></a>
+                    <svg class="footer__social" width="30" height="30">
+                        <use href="./img/icon/sprite-social-icons.svg#icon-facebook2"></use>
+                    </svg>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link"></a>
+                    <svg class="footer__social" width="30" height="30">
+                        <use href="./img/icon/sprite-social-icons.svg#icon-twitter"></use>
+                    </svg>
+                </li>
+                <li class="footer__item">
+                    <a href="" class="footer__link"></a>
+                    <svg class="footer__social" width="30" height="30">
+                        <use href="./img/icon/sprite-social-icons.svg#icon-telegram"></use>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.projects {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-section-color-two);
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+}
+
+.projects__img {
+    position: relative;
+    max-width: 480px;
+    height: auto;
+
+    &:hover .overlay {
+        display: flex;
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-overlay);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    max-width: 100%;
+    height: auto;
+}
